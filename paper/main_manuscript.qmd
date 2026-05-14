@@ -54,6 +54,13 @@ This quarto doc is for writing the manuscript. This is a test citation [@alba199
 # Background
 
 # Data and Methods
+Independent Variable (IV): State Renewable Portfolio Standards (RPS)
+The independent variable is derived from the dataset U.S. State Electricity Resource Standards: 2024 Status Update, compiled by the Lawrence Berkeley National Laboratory (LBNL). The dataset provides information on state-level Renewable Portfolio Standards (RPS) and Clean Energy Standards (CES) across U.S. states, including policy adoption dates, renewable energy targets, and compliance timelines. For this study, the dataset can be used to measure whether a state has adopted an RPS policy and the strength of the policy target over time, though the research only focus on 2008 and 2009. 
+
+
+Dependent Variable (DV): Renewable Electricity Generation Share
+The dependent variable is drawn from the U.S. Energy Information Administration (EIA) Annual Energy Review renewable electricity generation dataset. The dataset provides state-level information on electricity generation and the percentage of generation derived from renewable energy sources in 2008 and 2009. In this study, the dependent variable is the share of electricity generation from renewable energy sources, with particular attention to the “percent non-hydro renewable” measure, which captures renewable generation from sources such as wind, solar, geothermal, and biomass while excluding conventional hydroelectric power. This measure is appropriate because it reflects the types of renewable energy sources most directly influenced by modern RPS policies.
+
 
 # Results
 
@@ -62,6 +69,8 @@ This quarto doc is for writing the manuscript. This is a test citation [@alba199
 
 <!-- Explicitly place references -->
 # References
+Data source: Lawrence Berkeley National Laboratory RPS Dataset
+Data source: U.S. Energy Information Administration Renewable Energy Annual Data
 
 ::: {#refs}
 :::

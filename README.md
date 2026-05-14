@@ -2,6 +2,22 @@
 editor: visual
 ---
 
+### Independent Variable (IV): State Renewable Portfolio Standards (RPS)
+
+The independent variable is derived from the dataset *U.S. State Electricity Resource Standards: 2024 Status Update*, compiled by the Lawrence Berkeley National Laboratory (LBNL). The dataset provides information on state-level Renewable Portfolio Standards (RPS) and Clean Energy Standards (CES) across U.S. states, including policy adoption dates, renewable energy targets, and compliance timelines. For this study, the dataset can be used to measure whether a state has adopted an RPS policy and the strength of the policy target over time. These measures capture variation in state renewable energy policy commitment and allow for longitudinal comparison across states in a panel design.
+
+Data source: [Lawrence Berkeley National Laboratory RPS Dataset](https://emp.lbl.gov/publications/us-state-electricity-resource?utm_source=chatgpt.com)
+
+------------------------------------------------------------------------
+
+### Dependent Variable (DV): Renewable Electricity Generation Share
+
+The dependent variable is drawn from the U.S. Energy Information Administration (EIA) Annual Energy Review renewable electricity generation dataset. The dataset provides state-level information on electricity generation and the percentage of generation derived from renewable energy sources. In this study, the dependent variable is the share of electricity generation from renewable energy sources, with particular attention to the “percent non-hydro renewable” measure, which captures renewable generation from sources such as wind, solar, geothermal, and biomass while excluding conventional hydroelectric power. This measure is appropriate because it reflects the types of renewable energy sources most directly influenced by modern RPS policies.
+
+Data source: [U.S. Energy Information Administration Renewable Energy Annual Data](https://www.eia.gov/renewable/annual/?utm_source=chatgpt.com)
+
+-----------------------------------------------------------------------------------
+
 This repository is a template repository for a research project using a [Quarto Project](https://quarto.org/docs/projects/quarto-projects.html) and a [Reproducible Research Workflow](#a-reproducible-research-workflow) geared for open science. This template serves as a good project base for anyone using R as their primary language for conducting research, but could be retooled for other languages supported by [Quarto](https://quarto.org), like Python and Julia.
 
 To see an example of this template in action, go [here](https://github.com/AaronGullickson/example-research-project).
@@ -160,7 +176,7 @@ The code checks the "official" version in `data_version.yml` against a local ver
 
 If the data are updated, then replace the UUID for downloading data from Google Drive and update the `version` field in `data_version.yml`. Then commit and push those changes. Once collaborators pull in those changes, they will download the data the next time they run `organize_data.qmd`.
 
-## A Reproducible Research Workflow
+## A Reproducible Research Workflow {#a-reproducible-research-workflow}
 
 ### Three Phases
 
